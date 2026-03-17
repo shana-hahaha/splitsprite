@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-spritePink/20 text-spriteText;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+    sans-serif;
+}
+
+.card {
+  @apply rounded-xl-soft bg-white/90 shadow-soft-card border border-white/60 backdrop-blur;
+}
+
+.pill {
+  @apply rounded-full bg-white/70 px-3 py-1 text-xs font-medium text-spriteText/70;
+}
+
